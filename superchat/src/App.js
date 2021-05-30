@@ -10,12 +10,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBdrid6XLRb0BRy6XttIlPMJ33CV80o7F4",
-  authDomain: "react-bakozchat.firebaseapp.com",
-  projectId: "react-bakozchat",
-  storageBucket: "react-bakozchat.appspot.com",
-  messagingSenderId: "20700273897",
-  appId: "1:20700273897:web:4985fa2d0a079fac356478"
+
+  // your own configuration
 
 })
 
